@@ -109,9 +109,9 @@ while(running):
             balons.pop(index)
             health_point -= randint(5,20)
             hit_sound.play()
-            print("Oh Tidak Balonnya Lewat!!")
+            print("Oh Tidak Balonnya Kena Kaktus!!")
         
-        # 6.2.2 Check for collisions between enemies and arrows
+        # 6.2.2 Check for collisions between balon and arrows
         index_arrow = 0
         for bullet in arrows:
             bullet_rect = pygame.Rect(arrow.get_rect())
